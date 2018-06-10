@@ -20,7 +20,35 @@ cg_rels = {
     'P184': 'doctoral advisor',
     'P185': 'doctoral student',
     'P1066': 'student of',
-    'P802': 'student'
+    'P802': 'student',
+    'P2860': 'cites',
+    'P807': 'separated from',
+    'P112': 'founded by',
+    'P170': 'creator',
+    'P50': 'author',
+    'P61': 'discoverer or inventor',
+    'P86': 'composer',
+    'P178': 'developer',
+    'P287': 'designed by',
+    'P943': 'programmer',
+    'P193': 'main building contractor',
+    'P676': 'lyrics by',
+    'P175': 'performer',
+    'P84': 'architect',
+    'P110': 'illustrator',
+    'P1779': 'possible creator',
+    'P5191': 'derived from',
+    'P3448': 'stepparent',
+    'P156': 'followed by',
+    'P155': 'follows',
+    'P1366': 'replaced by',
+    'P1365': 'replaces',
+    'P167': 'structure replaced by'
+}
+
+non_time_rels = {
+    'P31': 'instance of'
+    'P279': 'subclass of'
 }
 
 # TODO these may have nested date information, so look at them
