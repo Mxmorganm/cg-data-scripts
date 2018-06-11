@@ -1,3 +1,5 @@
+instance_of = 'P31'
+
 # language fallback chain; get labels in the first language that works
 # the goal being to provide readable labels
 lang_order = ('en', 'de', 'fr', 'es', 'it', 'pl', 'pt', 'nl', 'sv', 'no', 'fi',
@@ -43,13 +45,10 @@ cg_rels = {
     'P155': 'follows',
     'P1366': 'replaced by',
     'P1365': 'replaces',
-    'P167': 'structure replaced by'
+    'P167': 'structure replaced by',
+    'P279': 'subclass of' # different from the others, but we need this too
 }
 
-non_time_rels = {
-    'P31': 'instance of'
-    'P279': 'subclass of'
-}
 
 # TODO these may have nested date information, so look at them
 nested_time_rels = {
