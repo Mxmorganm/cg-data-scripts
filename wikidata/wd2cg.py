@@ -193,6 +193,7 @@ def translate_statements(statements, labels):
                 print("*** Exception: no label for", item)
                 new_statement.append(item)
         statements_en.append(' '.join(new_statement))
+    return statements_en
 
 
 def write_arangodb_nodes(nodes, labels, dates):

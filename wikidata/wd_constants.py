@@ -58,7 +58,8 @@ nested_time_rels = {
     'P69': 'educated at',
     'P26': 'spouse',
     'P176': 'manufacturer',
-    'P449': 'original network'
+    'P449': 'original network',
+    'P1891': 'signatory' # many US laws seem to have a date only here
 }
 
 # other relationships being considered, not yet in CG
@@ -133,7 +134,9 @@ original_inverses = {
     'P184': 'P185',
     'P1066': 'P802',
     'P1478': 'P1536',
-    'P1479': 'P1537'
+    'P1479': 'P1537',
+    'P155': 'P156',
+    'P1365': 'P1366'
 }
 
 combined_inverses = {
@@ -147,7 +150,9 @@ combined_inverses = {
     'P184': 'P185',
     'P1066': 'P802',
     'P1478': 'P1536',
-    'P1479': 'P1537'
+    'P1479': 'P1537',
+    'P155': 'P156',
+    'P1365': 'P1366'
 }
 
 fictional_properties = ('P1074')
