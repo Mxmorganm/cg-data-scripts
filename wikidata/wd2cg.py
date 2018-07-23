@@ -351,7 +351,8 @@ if __name__ == "__main__":
     write_arangodb_nodes(nodes, labels, years_compact)
     write_arangodb_rels(statements_final, labels)
 
-    nxgraph = make_qid_nx_graph(statements_final, years=years)
-    graph_report = graph_report(nxgraph)
-    pprint.pprint(graph_report)
+    # with the full set of relationships, this takes too much RAM
+    # nxgraph = make_qid_nx_graph(statements_final, years=years)
+    # graph_report = graph_report(nxgraph)
+    # pprint.pprint(graph_report)
     # write_dot(nxgraph, 'nxcg.dot')
