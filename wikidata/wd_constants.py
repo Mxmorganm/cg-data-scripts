@@ -23,7 +23,7 @@ cg_rels = {
     'P185': 'doctoral student',
     'P1066': 'student of',
     'P802': 'student',
-    'P2860': 'cites',
+    # 'P2860': 'cites', (there were way too many of these)
     'P807': 'separated from',
     'P112': 'founded by',
     'P170': 'creator',
